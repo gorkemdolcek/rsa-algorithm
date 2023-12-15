@@ -69,3 +69,44 @@ edilmesidir. Güçlü şifreleme algoritmaları, kriptoanalize karşı dayanıkl
 önemlidir. Şifrelemenin gücü, doğru anahtarların kullanımı, güvenli algoritmaların seçimi ve 
 sürekli olarak güncellenen güvenlik standartlarıyla sağlanır. Bu prensipler, kriptografinin 
 temel taşlarıdır ve veri güvenliğinin temelini oluşturur
+
+# Asimetrik Şifreleme Nedir ve Nasıl Çalışır?
+
+Asimetrik şifreleme, geleneksel şifreleme yöntemlerinden farklı olarak iki ayrı anahtarın 
+kullanıldığı bir şifreleme türüdür. Bu anahtarlar genel anahtar (public key) ve özel anahtar 
+(private key) olarak adlandırılır. Her bir kullanıcı için bu iki anahtar çifti oluşturulur.
+
+- **Genel Anahtar (Public Key):** 
+Herkese açık olarak paylaşılır. Diğer kişiler bu anahtarla veriyi şifrelerler.
+
+- **Özel Anahtar (Private Key):** 
+Sadece anahtar sahibinin bilgisayarında saklanır. Bu anahtarla şifrelenmiş veri çözülür.
+
+Asimetrik şifreleme işlemi şu şekilde çalışır:
+
+• Anahtar Oluşturma:
+
+ İlk adım, kullanıcı için genel ve özel anahtarların oluşturulmasıdır. Bu anahtarlar 
+matematiksel olarak birbirleriyle ilişkilidir.
+
+• Şifreleme İşlemi:
+
+Mesajı göndermek isteyen kullanıcı, alıcının genel anahtarını kullanarak mesajı 
+şifreler. Bu şifreli mesaj, sadece alıcının özel anahtarıyla çözülebilir.
+
+• Çözme İşlemi:
+
+Alıcı, mesajı alır ve kendi özel anahtarıyla şifrelenmiş mesajı çözer. Bu işlem, 
+yalnızca alıcının sahip olduğu özel anahtarla gerçekleştirilebilir.
+
+ Asimetrik şifreleme, iletişim güvenliğini sağlamak için kullanılır. Veri şifrelendikten sonra, 
+yalnızca doğru özel anahtara sahip olan kişi bu veriyi çözebilir. Bu, iletişim güvenliğini 
+sağlamak için önemli bir adımdır, çünkü genel anahtar herkese açık olduğu için veri güvenli 
+bir şekilde iletilir.
+
+ Asimetrik şifreleme algoritmaları arasında RSA, ElGamal, ve ECC (Elliptic Curve 
+Cryptography) gibi çeşitli yöntemler bulunur. Bu algoritmalar farklı matematiksel yapılar 
+kullanarak asimetrik şifreleme işlemini gerçekleştirirler, ancak temel prensip aynıdır: genel 
+ve özel anahtar çiftlerini kullanarak güvenli iletişim sağlamak
+
+
