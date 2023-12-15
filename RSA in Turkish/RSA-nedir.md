@@ -70,7 +70,7 @@ edilmesidir. Güçlü şifreleme algoritmaları, kriptoanalize karşı dayanıkl
 sürekli olarak güncellenen güvenlik standartlarıyla sağlanır. Bu prensipler, kriptografinin 
 temel taşlarıdır ve veri güvenliğinin temelini oluşturur
 
-# Asimetrik Şifreleme Nedir ve Nasıl Çalışır?
+# 1.2 Asimetrik Şifreleme Nedir ve Nasıl Çalışır?
 
 Asimetrik şifreleme, geleneksel şifreleme yöntemlerinden farklı olarak iki ayrı anahtarın 
 kullanıldığı bir şifreleme türüdür. Bu anahtarlar genel anahtar (public key) ve özel anahtar 
