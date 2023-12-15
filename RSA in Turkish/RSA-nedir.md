@@ -7,10 +7,12 @@ RSA'nın temelinde, bir mesajın şifrelenmesi ve şifrenin çözülmesi için k
 matematiksel işlemler bulunur. İki anahtar kullanır: açık anahtar ve özel anahtar.
 
 - **Açık Anahtar:**
+  
 Herkesin erişebileceği, mesajları şifrelemek veya dijital imza oluşturmak için kullanılan 
 anahtardır.
 
-- **Özel Anahtar:** 
+- **Özel Anahtar:**
+  
 Sadece anahtar sahibinin bildiği, şifrelenmiş mesajları çözmek veya dijital imzayı 
 doğrulamak için kullanılan anahtardır.
 
@@ -30,30 +32,36 @@ anlayabilmesini sağlayan bir süreçtir. Temel şifreleme prensipleri, bilgiyi 
 şifreleme işleminin nasıl gerçekleştiğini anlatır:
 
 **1. Metin ve Şifreleme Anahtarı:** 
+
  Şifreleme işlemi, anlamı olan bir metni (açık metin) şifreleme anahtarı yardımıyla 
 anlamı olmayan bir forma dönüştürür (şifreli metin). Şifreli metni çözebilmek için 
 doğru anahtara ihtiyaç vardır.
 
 **2. Simetrik ve Asimetrik Şifreleme:**
+
  Simetrik şifreleme, aynı anahtarın hem şifreleme hem de çözme işleminde 
 kullanıldığı bir şifreleme türüdür. Asimetrik şifreleme ise genel anahtar ve özel 
 anahtar çiftleriyle çalışır. Genel anahtar ile şifrelenen mesaj, sadece özel anahtarla 
 çözülebilir.
 
 **3. Güçlü Anahtarlar:** 
+
  Şifreleme gücü, kullanılan anahtarın uzunluğu ve karmaşıklığıyla doğru orantılıdır. 
 Daha uzun ve karmaşık anahtarlar, şifrelemenin kırılmasını zorlaştırır.
 
 **4. Şifreleme İşleminin Güvenliği:**
+
  Güvenli bir şifreleme işlemi, şifrelenmiş verinin yalnızca yetkili kişiler tarafından 
 çözülebilmesini sağlamalıdır. Bu, şifreleme ve çözme işlemlerinin doğru anahtarlarla 
 gerçekleştirilmesine dayanır.
 
 **5. Kriptografi Protokolleri:** 
+
  İletişim güvenliği için kriptografi protokolleri kullanılır. Bu protokoller, güvenli 
 iletişim kanalları oluşturarak verilerin şifrelenmesi ve iletilmesi sürecini yönetir.
 
 **6. Kriptoanaliz ve Güvenlik:**
+
  Kriptoanaliz, şifrelenmiş veriyi çözmek için kullanılan tekniklerin analiz 
 edilmesidir. Güçlü şifreleme algoritmaları, kriptoanalize karşı dayanıklı olmalıdır.
 
